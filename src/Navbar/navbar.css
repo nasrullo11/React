@@ -1,0 +1,135 @@
+.block1 {
+    background: url("https://preview.colorlib.com/theme/breed2/img/banner/xhome-banner.png.pagespeed.ic.2CPOYBkyjE.png") no-repeat top center;
+    background-position: center;
+    background-size: cover;
+    min-height: 790px;
+    width: 100%;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 690px;
+}
+
+.container {
+    max-width: 1140px !important;
+}
+
+.nav {
+    width: 100%;
+    margin-left: 140px;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.nav-link.active {
+    color: #efb6df !important;
+    text-transform: uppercase;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px;
+    color: #05364d !important;
+}
+
+.Navbar {
+    height: 100px !important;
+}
+
+.banner h3 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+
+.banner h1 {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #05364d;
+}
+
+.banner h5 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 0;
+    color: #05364d;
+}
+
+.icons {
+    margin: 3rem 0px;
+}
+
+.icons svg {
+    color: rgba(5,54,77,.5);
+    margin-right: 16px;
+}
+
+.btn {
+    text-transform: uppercase;
+    display: inline-block;
+    background: linear-gradient(to right,#1345e6 0%,#ed239f 51%,#1345e6 100%);
+    color: #fff !important;
+    letter-spacing: 0;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 50px;
+    padding: 0px 38px !important;
+    outline: none!important;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s ease-in-out !important;
+    background-size: 200% auto;
+}
+
+.btn:hover {
+    background-position: right center;
+}
+
+.col-lg-4 img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    /* padding-top: 197px; */
+}
+
+.static {
+    background: #f8faff;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.static h3 {
+    background: linear-gradient(
+                90deg
+                ,#1345e6 0%,#ed239f 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
+.static p {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #797979;
+}

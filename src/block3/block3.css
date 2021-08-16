@@ -1,0 +1,114 @@
+.block3 {
+    padding-bottom: 110px;
+}
+
+.main-title {
+    margin-bottom: 80px;
+}
+
+.main-title h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 52px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: #05364d;
+}
+
+.main-title p {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    font-family: "Roboto",sans-serif;
+    color: #797979;
+}
+
+
+.main-title p span {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background: rgba(237,35,159,.6);
+    filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -webkit-filter: blur(4px);
+    border-radius: 5px;
+}
+
+.services {
+    padding: 60px 30px;
+    text-align: center;
+    background: #f8faff;
+    transition: all .4s ease 0s;
+}
+
+.services:hover {
+    background: #5f30ff;
+    color: white !important;
+}
+
+.services:hover h4,
+.services:hover p,
+.services:hover a,
+.services:hover a.primary_btn2::before
+{
+    color: white !important;
+}
+
+.services img {
+    margin-bottom: 45px;
+}
+
+.services h4 {
+    color: #05364d;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    transition: all .4s ease 0s;
+}
+
+.services p {
+    transition: all .4s ease 0s;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    font-family: "Roboto",sans-serif;
+    color: #797979;
+}
+
+.primary_btn2 {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    text-decoration: none;
+}
+
+.primary_btn2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 50px;
+    height: 2px;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    background: linear-gradient(
+        90deg
+        ,#1345e6 0%,#ed239f 100%);
+}

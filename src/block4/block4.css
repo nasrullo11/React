@@ -1,0 +1,79 @@
+.col-lg-6 .stars svg {
+    color: #ffff00 !important;
+    padding: 0;
+}
+
+.col-lg-6 h4 {
+    font-size: 20px;
+    margin-bottom: 4px;
+    color: rgb(5, 54, 77);
+    font-weight: 700;
+}
+
+p {
+    color: #5b6d75;
+}
+
+.block4 img {
+    display: block;
+    width: 100%;
+}
+
+.owl-carousel {
+    transform: translate3d(-1140px, 0px, 0px);
+    /* transition: all 2.5s ease 0s; */
+    width: 3420px !important;
+    display: flex;
+    align-items: center;
+}
+
+.col-lg-6 {
+    /* display: flex; */
+    /* flex-direction: column;   */
+    /* align-items: center; */
+    display: grid;
+    grid-template-columns: auto;
+    align-content: center;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row !important;
+}
+
+/* .owl-carousel:nth-child(2),
+.owl-carousel:nth-child(3) {
+    display: none;
+} */
+
+.spans {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.spans span {
+    background: #869791;
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.carousel-track {
+    height: 627px !important;
+}
+
+.carousel-item {
+    transition: transform 0s ease-in-out !important;
+}
+
+.carousel-arrow {
+    display: none !important;
+}
