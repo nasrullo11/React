@@ -1,11 +1,24 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './block3.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Navbar} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import HashLoader from "react-spinners/HashLoader";
 
 export default function Block3() {
+    const [loading, setLoading] = useState(false)
+
+    useEffect(() => {
+        setLoading(true)
+        setTimeout(() => {
+            setLoading(false)
+        }, 4000)
+    }, [])
     return (
+        <div className="loader">
+        {loading ? (
+            <HashLoader color={"#9013FE"} loading={loading} size={70} />
+        ) : (
         <div className="block3">
             <Container>
             <Navbar>
@@ -76,6 +89,9 @@ export default function Block3() {
                     </div>
                 </div>
             </Container>
+        </div>
+        )
+        }
         </div>
     )
 }

@@ -1,12 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './block4.css'
 import {Container, Navbar} from 'react-bootstrap'
 import {Star, StarBorder} from '@material-ui/icons'
 import Slider from 'infinite-react-carousel';
 import { Link } from 'react-router-dom'
+import HashLoader from "react-spinners/HashLoader";
 
 export default function Block4() {
+    const [loading, setLoading] = useState(false)
+
+    useEffect(() => {
+        setLoading(true)
+        setTimeout(() => {
+            setLoading(false)
+        }, 4000)
+    }, [])
     return (
+        <div className="loader">
+        {loading ? (
+            <HashLoader color={"#9013FE"} loading={loading} size={70} />
+        ) : (
         <div className="block4">
             <Container>
             <Navbar>
@@ -117,5 +130,8 @@ export default function Block4() {
                 </Slider>
             </Container>
         </div>
+            )
+            }
+            </div>
     )
 }
